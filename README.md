@@ -1,20 +1,32 @@
-<div align="center">
-<img width="1200" height="475" alt="GHBanner" src="https://ai.google.dev/static/site-assets/images/share-ais-513315318.png" />
-</div>
+# Naimas Perfume
 
-# Run and deploy your AI Studio app
+A modern and elegant perfume e-commerce frontend built with **React, TypeScript, Vite, and Tailwind CSS**.
 
-This contains everything you need to run your app locally.
+## Tech Stack
 
-View your app in AI Studio: https://ai.studio/apps/8293e6c1-4b0c-45f0-bcad-4e69a46dc318
+* React 19
+* TypeScript
+* Vite
+* Tailwind CSS
+* Motion
+* Lucide React
+* Google GenAI
+* Express.js
 
-## Run Locally
+## Features
 
-**Prerequisites:**  Node.js
+* Premium perfume e-commerce UI
+* Responsive design
+* Product showcase
+* Smooth animations
+* Interactive components
+* Mobile-friendly experience
 
+## Project Status
 
-1. Install dependencies:
-   `npm install`
-2. Set the `GEMINI_API_KEY` in [.env.local](.env.local) to your Gemini API key
-3. Run the app:
-   `npm run dev`
+Frontend development completed.
+
+## Developer
+
+**Ghulam Ghous Kalwar**
+Frontend Developer | AI Engineer
