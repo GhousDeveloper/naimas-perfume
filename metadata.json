@@ -1,0 +1,6 @@
+{
+  "name": "Naimas Perfume",
+  "description": "An ultra-premium interactive showcase of high-end luxury fragrances, featuring bespoke cinematic animations, custom multi-sensory scent formulation, and Awwwards-caliber visual craft.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
