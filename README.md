@@ -1,38 +1,84 @@
-# ✨ Naimas Perfume
+<div align="center">
 
-### Discover Your Signature Scent 🌸
+<!-- ✦ HERO ✦ -->
 
-A modern and elegant perfume e-commerce frontend built with **React 19, TypeScript, Vite, and Tailwind CSS**.
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0B0B0C,50:1C1A17,100:C9A96E&height=190&section=header&text=NAIMAS%20PERFUME&fontSize=52&fontColor=F5EFE3&fontAlignY=38&desc=Where%20Elegance%20Meets%20Fragrance&descSize=18&descColor=E6D3A3&descAlignY=60" alt="Naimas Perfume — Where Elegance Meets Fragrance" width="100%" />
 
-## 🌟 Features
+<a href="https://git.io/typing-svg">
+  <img src="https://readme-typing-svg.demolab.com?font=Cormorant+Garamond&weight=600&size=24&duration=3200&pause=1200&color=C9A96E&center=true&vCenter=true&width=640&lines=Where+Elegance+Meets+Fragrance.;A+modern+perfume+e-commerce+frontend.;Crafted+with+React%2C+TypeScript+%26+Vite." alt="Typing animation: Where Elegance Meets Fragrance" />
+</a>
 
-- Premium perfume e-commerce UI
-- Elegant and modern design
-- Smooth animations and transitions
-- Interactive product showcases
-- Fully responsive and mobile-friendly layout
-- Modern component-based architecture
-- Clean and maintainable TypeScript code
+<br/>
 
-## 🛠️ Tech Stack
+![React](https://img.shields.io/badge/React_19-0B0B0C?style=for-the-badge&logo=react&logoColor=C9A96E)
+![TypeScript](https://img.shields.io/badge/TypeScript-0B0B0C?style=for-the-badge&logo=typescript&logoColor=C9A96E)
+![Vite](https://img.shields.io/badge/Vite-0B0B0C?style=for-the-badge&logo=vite&logoColor=C9A96E)
+![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-0B0B0C?style=for-the-badge&logo=tailwindcss&logoColor=C9A96E)
+<br/>
+![Frontend Project](https://img.shields.io/badge/Frontend-Project-1C1A17?style=flat-square&labelColor=0B0B0C&color=C9A96E)
+![Responsive Design](https://img.shields.io/badge/Design-Responsive-1C1A17?style=flat-square&labelColor=0B0B0C&color=C9A96E)
+![Status](https://img.shields.io/badge/Status-Frontend_Complete-1C1A17?style=flat-square&labelColor=0B0B0C&color=C9A96E)
 
-- React 19
-- TypeScript
-- Vite
-- Tailwind CSS
-- Motion
-- Lucide React
-- Google GenAI
-- Express.js
+</div>
 
-## 🚀 Getting Started
+<p align="center"><img src="https://capsule-render.vercel.app/api?type=rect&color=gradient&customColorList=0,0B0B0C,C9A96E,0B0B0C&height=2" width="70%" alt="" /></p>
 
-### Prerequisites
+## ✦ Overview
 
-- Node.js
-- npm
+**Naimas Perfume** is a modern perfume e-commerce frontend that pairs a refined, luxury-fragrance aesthetic with a clean, component-based codebase. It focuses on what a premium brand storefront demands first: elegant presentation, smooth motion, and a seamless experience on every screen size.
 
-### Installation
+> **Design language:** deep black and charcoal, champagne-gold accents, warm ivory surfaces, and generous editorial spacing.
+
+## ✦ Visual Showcase
+
+<!--
+TODO (visual assets): No screenshots were verified in the repository.
+Add real captures, e.g. docs/screenshots/home.png, then replace the block below:
+
+<p align="center">
+  <img src="docs/screenshots/home.png" alt="Naimas Perfume homepage" width="90%" />
+</p>
+-->
+
+> 📸 **Screenshots coming soon.** Run the app locally (see [Installation](#-installation--setup)), capture the homepage and product showcase, save them in a folder such as `docs/screenshots/`, and reference them here with real relative paths.
+
+## ✦ Features
+
+- **Premium e-commerce interface** — a storefront designed around luxury fragrance branding
+- **Elegant, modern visual design** — considered typography, spacing, and colour
+- **Interactive product showcases** — engaging ways to explore fragrances
+- **Smooth animations and transitions** — powered by Motion
+- **Fully responsive layouts** — comfortable on mobile, tablet, and desktop
+- **Component-based architecture** — modular and reusable UI building blocks
+- **Maintainable TypeScript code** — typed, readable, and easy to extend
+
+## ✦ Technology Stack
+
+| Layer | Technology |
+| :-- | :-- |
+| UI Library | React 19 |
+| Language | TypeScript |
+| Build Tool | Vite |
+| Styling | Tailwind CSS |
+| Animation | Motion |
+| Icons | Lucide React |
+| AI Integration | Google GenAI |
+| Server | Express.js |
+
+## ✦ Project Architecture
+
+<!--
+TODO: Replace this section with the real directory tree from the repository
+(for example from `tree -L 2 -I node_modules`). Do not list folders that do not exist.
+-->
+
+Naimas Perfume follows a **component-based architecture**: the interface is composed of small, reusable React components written in TypeScript, bundled by Vite, and styled with Tailwind CSS.
+
+> 🗂️ *The exact folder tree will be documented here once verified against the repository.*
+
+## ✦ Installation & Setup
+
+**Prerequisites:** [Node.js](https://nodejs.org/) (a current LTS release is recommended) and npm.
 
 ```bash
 git clone YOUR_REPOSITORY_URL
@@ -41,31 +87,76 @@ npm install
 npm run dev
 ```
 
-### Production Build
+> Replace `YOUR_REPOSITORY_URL` with the actual URL of this repository. If the cloned folder has a different name, use that in the `cd` command.
+
+If the project uses Google GenAI features, you may need to provide an API key via environment variables. Check the repository for an `.env.example` file or configuration notes. 
+
+## ✦ Development Commands
+
+<!-- TODO: Verify these against the "scripts" section of package.json. -->
+
+| Command | Purpose |
+| :-- | :-- |
+| `npm run dev` | Start the local development server |
+| `npm run build` | Create an optimized production build |
+| `npm run preview` | Preview the production build locally |
+
+## ✦ Production Build
 
 ```bash
 npm run build
 npm run preview
 ```
 
-## 📌 Project Status
+The build output is generated by Vite and can be previewed locally before deployment.
 
-**Frontend Development Completed**
+## ✦ Current Project Status
 
-Naimas Perfume delivers a premium, fragrance-inspired shopping interface with modern UI design, responsive layouts, and smooth animations.
+| Area | Status |
+| :-- | :-- |
+| Frontend development | ✅ Completed |
+| Backend services | ⚠️ Not confirmed as implemented |
+| Payment processing | ⚠️ Not confirmed as implemented |
+| Inventory management | ⚠️ Not confirmed as implemented |
+| Order management | ⚠️ Not confirmed as implemented |
 
-*Note: Backend services, payment processing, inventory, and order management require implementation and verification before production e-commerce use.*
+> **Please note:** this repository represents the **frontend** of a perfume storefront. It should not be treated as a fully production-ready commerce platform, and no working payment system is claimed.
 
-## 👨‍💻 Developer
+## ✦ Planned Improvements
 
-**Ghulam Ghous Kalwar**
+- [ ] Add verified screenshots to the Visual Showcase
+- [ ] Document the verified project structure
+- [ ] Connect a backend for products, inventory, and orders
+- [ ] Integrate a secure payment provider
+- [ ] Add automated tests and CI
 
-Frontend Developer | AI Engineer
+## ✦ Developer
 
-Building modern web experiences and exploring AI-powered solutions.
+<div align="center">
 
----
+### Ghulam Ghous Kalwar
+**Frontend Developer | AI Engineer**
 
-⭐ If you like this project, consider giving the repository a star!
+*Building modern web experiences with React, TypeScript, and AI-powered technologies. Focused on elegant user interfaces, practical software solutions, and continuous learning.*
+
+</div>
+
+## ✦ Contact
+
+<!-- TODO (optional): Add verified links, e.g. GitHub profile, LinkedIn, portfolio, or email. -->
+
+Contact and social links will be added here once verified.
+
+## ✦ Support
+
+If this project inspires you, a ⭐ on the repository is warmly appreciated.
+
+<p align="center"><img src="https://capsule-render.vercel.app/api?type=rect&color=gradient&customColorList=0,0B0B0C,C9A96E,0B0B0C&height=2" width="70%" alt="" /></p>
+
+<div align="center">
 
 **Naimas Perfume — Where Elegance Meets Fragrance.**
+
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:C9A96E,50:1C1A17,100:0B0B0C&height=110&section=footer" alt="" width="100%" />
+
+</div>
